@@ -1,7 +1,7 @@
 /** @jest-environment jsdom */
+import "@testing-library/jest-dom";
 import { render,  screen } from "@testing-library/react";
 import { Header } from "./Header";
-import "@testing-library/jest-dom";
 import { ABOUT_US, CATALOG } from "./constants";
 
 describe("Components / <Header />", () => {
