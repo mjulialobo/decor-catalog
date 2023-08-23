@@ -1,11 +1,15 @@
 ## Decor Catalog
 
-Decor catalog is a project developed for studying purposes, following a [mockup](https://www.canva.com/design/DAFsXxyHxew/QpEgNgekJSoClN_0VCd8mQ/edit) designed by me. 
+Decor catalog is a project developed for studying purposes, following a [mockup](https://www.canva.com/design/DAFsXxyHxew/QpEgNgekJSoClN_0VCd8mQ/edit) designed by me.
 
 ## Stacks
-In progress
+
+- React
+- Next.js
+- Styled Components
 
 ## How to run
+
 In progress
 
 In the project directory, you can run:
@@ -22,5 +26,3 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-

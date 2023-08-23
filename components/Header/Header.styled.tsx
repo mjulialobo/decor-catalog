@@ -5,21 +5,20 @@ export const HeaderWrapperFull = styled.section`
   width: 100%;
   top: 0;
   background-color: #f1f0f0;
-  padding: 16px 0;
+  padding: 8px 0;
 `;
 
 export const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 16px;
+  margin: 0 8px;
 `;
 
 export const HeaderLinksContainer = styled.div`
-  width: 15%;
   display: flex;
   justify-content: space-around;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 
   a {
