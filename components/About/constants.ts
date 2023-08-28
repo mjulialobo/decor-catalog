@@ -4,4 +4,4 @@ export const ABOUT_TITLE = 'Nossa história';
 
 export const PHONE_NUMBER = '(+5511) 9999-9999';
 
-export const ADRESS=' Calçada Antares, 256 - Centro de Apoio II (Alphaville), Santana de Parnaíba - SP, 06541-065'
+export const ADDRESS=' Calçada Antares, 256 - Centro de Apoio II (Alphaville), Santana de Parnaíba - SP, 06541-065'

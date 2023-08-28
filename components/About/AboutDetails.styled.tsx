@@ -5,32 +5,24 @@ export const ContentContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  padding: 42px;
+  gap: ${(props) => props.theme.spacing[16]};
+  padding: ${(props) => props.theme.spacing[42]};
   overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
-    padding: 16px;
+    padding: ${(props) => props.theme.spacing[16]};
   }
 `;
 
-export const AboutText = styled.p`
-  font-size: 16px;
-  margin-bottom: 10px;
+export const Text = styled.p<{$margin?: boolean;}>`
+  font-size: ${(props) => props.theme.spacing[16]};
+  margin-bottom: ${props=> props.$margin ? '10px' : '0'};
 `;
 
-export const Phone = styled.p`
-  font-size: 16px;
-`;
-
-export const Adress = styled.p`
-  font-size: 16px;
-`;
-
-export const SocialMedia = styled.div`
+export const SocialMedia = styled.nav`
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+  gap: ${(props) => props.theme.spacing[16]};
 `;
 
 export const Images = styled.div`
@@ -40,7 +32,7 @@ export const Images = styled.div`
   justify-content: center;
   margin-left: 8rem;
 
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 767px) {
     margin-left: 12rem;
   }
 `;
@@ -84,7 +76,7 @@ export const OwnerImage = styled.div`
     border-radius: 50%;
   }
 
-  @media screen and (max-width: 758px) {
+  @media screen and (max-width: 768px) {
     img {
       visibility: hidden;
     }

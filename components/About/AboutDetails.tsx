@@ -9,24 +9,21 @@ import {
   PinterestIcon,
 } from "next-share";
 import {
-  AboutText,
-  Adress,
+  Text,
   ContentContainer,
   Images,
   OwnerImage,
-  Phone,
   SocialMedia,
   StoreImage,
 } from "./AboutDetails.styled";
-import { ABOUT_TEXT, ABOUT_TITLE, ADRESS, PHONE_NUMBER } from "./constants";
+import { ABOUT_TEXT, ABOUT_TITLE, ADDRESS, PHONE_NUMBER } from "./constants";
 
 export const AboutDetails = () => {
   return (
     <>
-      <Header />
       <ContentContainer>
         <h1>{ABOUT_TITLE}</h1>
-        <AboutText>{ABOUT_TEXT}</AboutText>
+        <Text $margin>{ABOUT_TEXT}</Text>
 
         <Images>
           <StoreImage>
@@ -50,8 +47,8 @@ export const AboutDetails = () => {
           </OwnerImage>
         </Images>
 
-        <Phone>{PHONE_NUMBER}</Phone>
-        <Adress>{ADRESS}</Adress>
+        <Text>{PHONE_NUMBER}</Text>
+        <Text>{ADDRESS}</Text>
 
         <SocialMedia>
           <WhatsappShareButton url={"/"}>
