@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import { Header } from "./Header";
 import { ABOUT_US, CATALOG } from "./constants";
 import { ThemeProvider } from "styled-components";
-import Theme from "../../style/Theme";
+import Theme from "../../../style/Theme";
 
 describe("Components / <Header />", () => {
   it("render component", async () => {

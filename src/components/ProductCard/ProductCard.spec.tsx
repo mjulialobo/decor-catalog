@@ -3,7 +3,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { ProductCard } from "./ProductCard";
 import { ThemeProvider } from "styled-components";
-import Theme from "../../style/Theme";
+import Theme from "../../../style/Theme";
 
 describe("Components / <Header />", () => {
   it("render component", async () => {

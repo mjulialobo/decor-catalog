@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Header } from "../components/Header/Header";
 import axios from "axios";
-import { ProductCard } from "../components/ProductCard/ProductCard";
+import { ProductCard } from "../src/components/ProductCard/ProductCard";
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
