@@ -3,22 +3,22 @@ import styled from "styled-components";
 export const HeaderWrapperFull = styled.section`
   position: relative;
   width: 100%;
-  top: 0;
+  top: ${(props) => props.theme.spacing.zero};
   background-color: #f1f0f0;
-  padding: 8px 0;
+  padding: ${(props) => props.theme.spacing.xSmall} ${(props) => props.theme.spacing.zero};
 `;
 
 export const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 8px;
+  margin: ${(props) => props.theme.spacing.zero} ${(props) => props.theme.spacing.base};
 `;
 
 export const HeaderLinksContainer = styled.div`
   display: flex;
   justify-content: space-around;
-  gap: 16px;
+  gap: ${(props) => props.theme.spacing.base};
   align-items: center;
 
   a {

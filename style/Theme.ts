@@ -1,7 +1,7 @@
 const Theme = {
   color: {
     primary: "#f1f0f0",
-    secundary: "#005eb4",
+    secondary: "#005eb4",
   },
   font: {
     small: "0.5rem",
@@ -11,16 +11,19 @@ const Theme = {
   },
 
   spacing: {
-    0: "0px",
-    2: "2px",
-    4: "4px",
-    6: "6px",
-    8: "8px",
-    10: "10px",
-    12: "12px",
-    16: "16px",
-    24: "24px",
-    42: "42px",
+    zero: "0",
+    xxSmall: "4px",
+    xSmall: "8px",
+    small: "12px",
+    base: "16px",
+    large: "24px",
+    mediumSmall: "32px",
+    medium: "42px",
+    mediumLarge: "48px",
+    wideSmall: "56px",
+    wide: "64px",
+    wideLarge: "72px",
+    wideXLarge: "80px",
   },
 };
 

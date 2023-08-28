@@ -5,24 +5,24 @@ export const ContentContainer = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: ${(props) => props.theme.spacing[16]};
-  padding: ${(props) => props.theme.spacing[42]};
+  gap: ${(props) => props.theme.spacing.base};
+  padding: ${(props) => props.theme.spacing.medium};
   overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
-    padding: ${(props) => props.theme.spacing[16]};
+    padding: ${(props) => props.theme.spacing.base};
   }
 `;
 
 export const Text = styled.p<{$margin?: boolean;}>`
-  font-size: ${(props) => props.theme.spacing[16]};
+  font-size: ${(props) => props.theme.font.default};
   margin-bottom: ${props=> props.$margin ? '10px' : '0'};
 `;
 
 export const SocialMedia = styled.nav`
   display: flex;
   justify-content: space-between;
-  gap: ${(props) => props.theme.spacing[16]};
+  gap: ${(props) => props.theme.spacing.base};
 `;
 
 export const Images = styled.div`
