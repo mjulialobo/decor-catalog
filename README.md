@@ -7,14 +7,17 @@ Decor catalog is a project developed for studying purposes, following a [mockup]
 - React
 - Next.js
 - Styled Components
+- Jest
 
 ## How to run
 
-In progress
+1 - Clone this repository;
+2 - Install dependencies with `yarn install`;
+3 - Run project;
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -26,3 +29,7 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn lint`
+
+Runs lint

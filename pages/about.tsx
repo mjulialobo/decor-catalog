@@ -1,6 +1,5 @@
-import { Header } from "../components/Header/Header";
+import {AboutDetails} from '../components/About/AboutDetails'
 
 export default function About() {
-    return (<Header/>);
-  }
-  
+  return <AboutDetails />;
+}
