@@ -17,8 +17,6 @@ export default function Home() {
   }, []);
   return (
     <>
-      <Header />
-
       {posts.map(
         (product, index) =>
           index <= 4 && <ProductCard key={product.id} product={product} />

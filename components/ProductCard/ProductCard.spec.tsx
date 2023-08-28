@@ -2,6 +2,8 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { ProductCard } from "./ProductCard";
+import { ThemeProvider } from "styled-components";
+import Theme from "../../style/Theme";
 
 describe("Components / <Header />", () => {
   it("render component", async () => {
@@ -23,7 +25,11 @@ describe("Components / <Header />", () => {
       id: "2",
     };
 
-    render(<ProductCard product={productMock} key={1} />);
+    render(
+      <ThemeProvider theme={Theme}>
+        <ProductCard product={productMock} key={1} />
+      </ThemeProvider>
+    );
 
     expect(screen.getByTestId("product-image")).toBeInTheDocument();
     expect(screen.getByText(productMock.name)).toBeInTheDocument();

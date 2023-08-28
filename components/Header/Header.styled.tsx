@@ -4,7 +4,7 @@ export const HeaderWrapperFull = styled.section`
   position: relative;
   width: 100%;
   top: ${(props) => props.theme.spacing.zero};
-  background-color: #f1f0f0;
+  background-color:${(props) => props.theme.color.primary};
   padding: ${(props) => props.theme.spacing.xSmall} ${(props) => props.theme.spacing.zero};
 `;
 

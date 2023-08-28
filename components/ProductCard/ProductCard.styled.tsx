@@ -6,13 +6,13 @@ export const CardWrapper = styled.div`
   align-items: center;
   justify-content:center;
   border-radius: 10%;
-  background-color: #f1f0f0;
-  padding: 16px;
+  background-color: ${(props) => props.theme.color.primary};
+  padding: ${(props) => props.theme.spacing.base};
   width: 150px;
   height: 250px;
-  gap: 8px;
+  gap: ${(props) => props.theme.spacing.xSmall};
 
  &:hover{
-    border: 1px solid #7c7878;
+    border: 1px solid ${(props) => props.theme.color.secondary};
   }
 `;
