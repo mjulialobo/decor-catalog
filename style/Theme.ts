@@ -2,6 +2,7 @@ const Theme = {
   color: {
     primary: "#f1f0f0",
     secondary: "#7c7878",
+    garden: "#99a56d",
   },
   font: {
     small: "0.5rem",
