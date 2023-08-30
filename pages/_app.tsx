@@ -1,5 +1,5 @@
 import "../style/global.css";
-import Layout from "../components/Layout/layout";
+import Layout from "../src/components/Layout/layout";
 import Head from "next/head";
 import { ThemeProvider } from "styled-components";
 import Theme from "../style/Theme";

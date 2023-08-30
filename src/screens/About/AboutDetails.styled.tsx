@@ -14,9 +14,10 @@ export const ContentContainer = styled.section`
   }
 `;
 
-export const Text = styled.p<{$margin?: boolean;}>`
+export const Text = styled.p<{ $margin?: boolean }>`
   font-size: ${(props) => props.theme.font.default};
-  margin-bottom: ${props=> props.$margin ? '10px' : '0'};
+  margin-bottom: ${(props) =>
+    props.$margin ? props.theme.spacing.small : "0"};
 `;
 
 export const SocialMedia = styled.nav`
@@ -30,10 +31,10 @@ export const Images = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  margin-left: 8rem;
+  margin-left: ${(props) => props.theme.spacing.wideXLarge};
 
   @media screen and (max-width: 767px) {
-    margin-left: 12rem;
+    margin-left: ${(props) => props.theme.spacing.wideXGLarge};
   }
 `;
 
@@ -69,8 +70,8 @@ export const StoreImage = styled.div`
 export const OwnerImage = styled.div`
   position: relative;
   height: fit-content;
-  top: 28.5rem;
-  right: 5rem;
+  top: ${(props) => props.theme.spacing.largeRem};
+  right: ${(props) => props.theme.spacing.xSmallRem};
 
   img {
     border-radius: 50%;
@@ -83,7 +84,7 @@ export const OwnerImage = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    right: 10rem;
+    right: ${(props) => props.theme.spacing.smallRem};
     img {
       width: 150px;
       height: 150px;
@@ -91,8 +92,7 @@ export const OwnerImage = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
-    top: 16.5rem;
-
+    top: ${(props) => props.theme.spacing.baseRem};
     img {
       width: 200px;
       height: 150px;
