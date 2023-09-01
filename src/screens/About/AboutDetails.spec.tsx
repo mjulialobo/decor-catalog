@@ -6,7 +6,7 @@ import { ABOUT_TITLE, PHONE_NUMBER } from "./constants";
 import { ThemeProvider } from "styled-components";
 import Theme from "../../../style/Theme";
 
-describe("Components / <Header />", () => {
+describe("Screens / <AboutDetails />", () => {
   it("render component", async () => {
     render(
       <ThemeProvider theme={Theme}>

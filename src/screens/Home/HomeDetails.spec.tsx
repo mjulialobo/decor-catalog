@@ -7,7 +7,7 @@ import { ThemeProvider } from "styled-components";
 import Theme from "../../../style/Theme";
 import productsMock from "../../utils/productsMock.json";
 
-describe("Components / <Header />", () => {
+describe("Screens / <HomeDetails />", () => {
   it("render component", async () => {
     render(
       <ThemeProvider theme={Theme}>
