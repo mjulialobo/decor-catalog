@@ -4,8 +4,8 @@ export const HeaderWrapperFull = styled.section`
   position: relative;
   width: 100%;
   top: ${(props) => props.theme.spacing.zero};
-  background-color:${(props) => props.theme.color.primary};
-  padding: ${(props) => props.theme.spacing.xSmall} ${(props) => props.theme.spacing.zero};
+  background-color: ${(props) => props.theme.color.header};
+  padding: ${(props) => props.theme.spacing.xxSmall} ${(props) => props.theme.spacing.zero};
 `;
 
 export const HeaderWrapper = styled.div`

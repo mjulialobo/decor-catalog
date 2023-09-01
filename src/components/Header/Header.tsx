@@ -23,9 +23,9 @@ export const Header = () => {
         </Link>
 
         <HeaderLinksContainer>
-          <Link href="/">{CATALOG}</Link>
+          <Link href="/catalogo">{CATALOG}</Link>
           <Link href="/about">{ABOUT_US}</Link>
-          <WhatsappShareButton url={"/"}>
+          <WhatsappShareButton url="/">
             <WhatsappIcon size={32} round />
           </WhatsappShareButton>
         </HeaderLinksContainer>
