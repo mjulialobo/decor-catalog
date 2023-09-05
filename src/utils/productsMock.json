@@ -1,0 +1,81 @@
+[{
+        "name": "Sofá Cinza",
+        "description": "Sofá cinza confortável e elegante com 3 lugares.",
+        "height": 27,
+        "width": 73,
+        "depth": 3,
+        "category": "sala",
+        "type": "sofa",
+        "weight": 21,
+        "createdAt": 1693169900,
+        "color": "cinza",
+        "image": [
+            "https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?w=826&t=st=1693169998~exp=1693170598~hmac=a187bcfb46c1b810788884288feaf3831c230201c58182dfe77120e8a6a0763f",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-137.jpg?w=826&t=st=1693170817~exp=1693171417~hmac=62d546cb41ca60a23d715b39f658527eab723e6415bf54c11aee815d74d0ce42",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-136.jpg?w=826&t=st=1693170845~exp=1693171445~hmac=d7211d28199f6776d819887666fc7728c08b05405c9319164f43661d867bfc8b",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-138.jpg?w=826&t=st=1693170861~exp=1693171461~hmac=2e77b0163484065f959cd21cf1def7ba0f63acaf7d38c63e51d53bad7b20fe58",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-128.jpg?w=826&t=st=1693170913~exp=1693171513~hmac=e331195ec51730337b8fee30dd93b25a533f0efd4b3bdcc59ed66335a2b3bea9"
+        ],
+        "id": "1"
+    },
+    {
+        "name": "Sofá Cinza",
+        "description": "Sofá cinza confortável e elegante com 3 lugares.",
+        "height": 27,
+        "width": 73,
+        "depth": 3,
+        "category": "sala",
+        "type": "sofa",
+        "weight": 21,
+        "createdAt": 1693169900,
+        "color": "cinza",
+        "image": [
+            "https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?w=826&t=st=1693169998~exp=1693170598~hmac=a187bcfb46c1b810788884288feaf3831c230201c58182dfe77120e8a6a0763f",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-137.jpg?w=826&t=st=1693170817~exp=1693171417~hmac=62d546cb41ca60a23d715b39f658527eab723e6415bf54c11aee815d74d0ce42",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-136.jpg?w=826&t=st=1693170845~exp=1693171445~hmac=d7211d28199f6776d819887666fc7728c08b05405c9319164f43661d867bfc8b",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-138.jpg?w=826&t=st=1693170861~exp=1693171461~hmac=2e77b0163484065f959cd21cf1def7ba0f63acaf7d38c63e51d53bad7b20fe58",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-128.jpg?w=826&t=st=1693170913~exp=1693171513~hmac=e331195ec51730337b8fee30dd93b25a533f0efd4b3bdcc59ed66335a2b3bea9"
+        ],
+        "id": "1"
+    },
+    {
+        "name": "Sofá Cinza",
+        "description": "Sofá cinza confortável e elegante com 3 lugares.",
+        "height": 27,
+        "width": 73,
+        "depth": 3,
+        "category": "sala",
+        "type": "sofa",
+        "weight": 21,
+        "createdAt": 1693169900,
+        "color": "cinza",
+        "image": [
+            "https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?w=826&t=st=1693169998~exp=1693170598~hmac=a187bcfb46c1b810788884288feaf3831c230201c58182dfe77120e8a6a0763f",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-137.jpg?w=826&t=st=1693170817~exp=1693171417~hmac=62d546cb41ca60a23d715b39f658527eab723e6415bf54c11aee815d74d0ce42",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-136.jpg?w=826&t=st=1693170845~exp=1693171445~hmac=d7211d28199f6776d819887666fc7728c08b05405c9319164f43661d867bfc8b",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-138.jpg?w=826&t=st=1693170861~exp=1693171461~hmac=2e77b0163484065f959cd21cf1def7ba0f63acaf7d38c63e51d53bad7b20fe58",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-128.jpg?w=826&t=st=1693170913~exp=1693171513~hmac=e331195ec51730337b8fee30dd93b25a533f0efd4b3bdcc59ed66335a2b3bea9"
+        ],
+        "id": "1"
+    },
+    {
+        "name": "Sofá Cinza",
+        "description": "Sofá cinza confortável e elegante com 3 lugares.",
+        "height": 27,
+        "width": 73,
+        "depth": 3,
+        "category": "sala",
+        "type": "sofa",
+        "weight": 21,
+        "createdAt": 1693169900,
+        "color": "cinza",
+        "image": [
+            "https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?w=826&t=st=1693169998~exp=1693170598~hmac=a187bcfb46c1b810788884288feaf3831c230201c58182dfe77120e8a6a0763f",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-137.jpg?w=826&t=st=1693170817~exp=1693171417~hmac=62d546cb41ca60a23d715b39f658527eab723e6415bf54c11aee815d74d0ce42",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-136.jpg?w=826&t=st=1693170845~exp=1693171445~hmac=d7211d28199f6776d819887666fc7728c08b05405c9319164f43661d867bfc8b",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-138.jpg?w=826&t=st=1693170861~exp=1693171461~hmac=2e77b0163484065f959cd21cf1def7ba0f63acaf7d38c63e51d53bad7b20fe58",
+            "https://img.freepik.com/free-psd/elegant-grey-sofa-with-cushions-isolated_176382-128.jpg?w=826&t=st=1693170913~exp=1693171513~hmac=e331195ec51730337b8fee30dd93b25a533f0efd4b3bdcc59ed66335a2b3bea9"
+        ],
+        "id": "1"
+    }
+]

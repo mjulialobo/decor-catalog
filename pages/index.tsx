@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { ProductCard } from "../src/components/ProductCard/ProductCard";
+import { HomeDetails } from "../src/screens/Home/HomeDetails";
+import { Product } from "../src/components/ProductCard/types";
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -14,12 +15,10 @@ export default function Home() {
         console.error(error);
       });
   }, []);
+
   return (
     <>
-      {posts.map(
-        (product, index) =>
-          index <= 4 && <ProductCard key={product.id} product={product} />
-      )}
+      <HomeDetails products={posts}/>
     </>
   );
 }
