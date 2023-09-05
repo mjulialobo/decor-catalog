@@ -4,38 +4,37 @@ import { render, screen } from "@testing-library/react";
 import { NavigationDetails } from "./NavigationDetails";
 import { ThemeProvider } from "styled-components";
 import Theme from "../../../style/Theme";
+import productsMock from "../../utils/productsMock.json";
+import userEvent from "@testing-library/user-event";
 
 describe("Screens / <NavigationDetails/>", () => {
-
   it("render component", async () => {
     render(
       <ThemeProvider theme={Theme}>
-        
+        <NavigationDetails products={productsMock} />
       </ThemeProvider>
-
-      //confere se tem 1 produto, titulo, input e rotas
     );
+
+    expect(screen.getByTestId("search-filter")).toBeInTheDocument();
+    expect(screen.getByText("sala")).toBeInTheDocument();
   });
 
   it("filter products", async () => {
     render(
       <ThemeProvider theme={Theme}>
-        
+        <NavigationDetails products={productsMock} />
       </ThemeProvider>
-
-      //confere se tem 1 produto
-      // clica e filtra
-      // vê se ficou só o outro
     );
-  });
 
-  it("navigates through categories", async () => {
-    render(
-      <ThemeProvider theme={Theme}>
-        
-      </ThemeProvider>
+    const searchFilter = screen.getByRole("textbox");
 
-      //clica, vê se ficou só um tipo de item
-    );
+    expect(searchFilter).toBeInTheDocument();
+    expect(screen.getAllByText("Mesa")).toHaveLength(2);
+    expect(screen.getAllByText("poltrona")).toHaveLength(2);
+
+    await userEvent.type(searchFilter, "m");
+
+    expect(screen.getAllByText("Mesa")).toHaveLength(2);
+    expect(screen.queryByText("poltrona")).not.toBeInTheDocument();
   });
 });

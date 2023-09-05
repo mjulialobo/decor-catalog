@@ -38,6 +38,7 @@ export const NavigationDetails = ({ products }: NavigationProps) => {
 
   const handleSearch = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
+    console.log(event.target.value);
   };
 
   return (
