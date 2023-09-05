@@ -5577,7 +5577,7 @@ styled-jsx@5.1.1:
   dependencies:
     client-only "0.0.1"
 
-stylelint@^15.10.3:
+stylelint@15.10.3:
   version "15.10.3"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-15.10.3.tgz#995e4512fdad450fb83e13f3472001f6edb6469c"
   integrity sha512-aBQMMxYvFzJJwkmg+BUUg3YfPyeuCuKo2f+LOw7yYbU8AZMblibwzp9OV4srHVeQldxvSFdz0/Xu8blq2AesiA==
