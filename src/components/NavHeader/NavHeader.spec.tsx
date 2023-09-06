@@ -15,10 +15,6 @@ describe("Components / <NavHeader />", () => {
       </ThemeProvider>
     );
 
-    expect(screen.getByText(HEADER_ITEMS[0])).toBeInTheDocument();
-    expect(screen.getByText(HEADER_ITEMS[1])).toBeInTheDocument();
-    expect(screen.getByText(HEADER_ITEMS[2])).toBeInTheDocument();
-    expect(screen.getByText(HEADER_ITEMS[3])).toBeInTheDocument();
-    expect(screen.getByText(HEADER_ITEMS[4])).toBeInTheDocument();
+    HEADER_ITEMS.forEach((item) => expect(screen.getByText(item)).toBeInTheDocument());
   });
 });

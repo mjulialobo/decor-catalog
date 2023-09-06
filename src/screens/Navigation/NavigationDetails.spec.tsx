@@ -8,7 +8,7 @@ import productsMock from "../../utils/productsMock.json";
 import userEvent from "@testing-library/user-event";
 
 describe("Screens / <NavigationDetails/>", () => {
-  it("render component", async () => {
+  it("render component",  () => {
     render(
       <ThemeProvider theme={Theme}>
         <NavigationDetails products={productsMock} />
@@ -19,7 +19,7 @@ describe("Screens / <NavigationDetails/>", () => {
     expect(screen.getByText("sala")).toBeInTheDocument();
   });
 
-  it("filter products", async () => {
+  it("filter products",  () => {
     render(
       <ThemeProvider theme={Theme}>
         <NavigationDetails products={productsMock} />
@@ -32,7 +32,7 @@ describe("Screens / <NavigationDetails/>", () => {
     expect(screen.getAllByText("Mesa")).toHaveLength(2);
     expect(screen.getAllByText("poltrona")).toHaveLength(2);
 
-    await userEvent.type(searchFilter, "m");
+    userEvent.type(searchFilter, "m");
 
     expect(screen.getAllByText("Mesa")).toHaveLength(2);
     expect(screen.queryByText("poltrona")).not.toBeInTheDocument();
