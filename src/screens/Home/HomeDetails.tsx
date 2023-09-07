@@ -39,7 +39,7 @@ export const HomeDetails = ({ products }: HomeDetailsProps) => {
         <BannerTextContent>
           <BannerTitle>{BANNER_TITLE}</BannerTitle>
           <Text>{BANNER_TEXT}</Text>
-          <Link href="/">
+          <Link href="/catalogo/jardim">
             <Image
               src="https://cdn-icons-png.flaticon.com/128/318/318476.png"
               data-testid="navigate-icon"
@@ -61,7 +61,7 @@ export const HomeDetails = ({ products }: HomeDetailsProps) => {
               <ProductCard key={index} product={product} />
             )
         )}
-        <Link href="/">
+        <Link href="/catalogo">
           <Image
             src="https://cdn-icons-png.flaticon.com/128/6318/6318306.png"
             data-testid="navigate-icon"

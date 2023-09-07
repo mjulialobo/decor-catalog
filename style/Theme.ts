@@ -3,6 +3,7 @@ const Theme = {
     primary: "#f1f0f0",
     secondary: "#7c7878",
     garden: "#99a56d",
+    header: "#abc3f7",
   },
   font: {
     small: "0.5rem",

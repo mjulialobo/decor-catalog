@@ -1,2 +1,2 @@
-export const ABOUT_US = 'Sobre a Decor';
+export const ABOUT_US = 'Sobre';
 export const CATALOG = 'Catálogo';

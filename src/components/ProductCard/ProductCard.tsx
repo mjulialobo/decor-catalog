@@ -5,7 +5,7 @@ import { ProductCardProps } from "./types";
 export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <>
-      <CardWrapper>
+      <CardWrapper className="card-wrapper">
         <Image
           src={product.image[0]}
           alt={product.name}
